@@ -15,4 +15,8 @@
     <ProjectReference Include="..\QuickLoanAPI.Domain\QuickLoanAPI.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DbManage\" />
+  </ItemGroup>
+
 </Project>

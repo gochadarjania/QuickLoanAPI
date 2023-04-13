@@ -16,10 +16,15 @@ namespace QuickLoanAPI.Infrastructure
     }
 
     public DbSet<User> Users { get; set; }
-    public DbSet<CurrencyType> CurrencyTypes { get; set; }
-    public DbSet<LoanType> LoanTypes { get; set; }
-    public DbSet<Status> Status { get; set; }
+    public DbSet<UserInfo> UserInfos { get; set; }
     public DbSet<LoanRequest> LoanRequests { get; set; }
-    public DbSet<LoanApplication> LoanApplications { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+      modelBuilder.Entity<User>()
+          .HasOne(u => u.UserInfo)
+          .WithOne(ui => ui.User)
+          .HasForeignKey<UserInfo>(ui => ui.UserId);
+    }
   }
 }

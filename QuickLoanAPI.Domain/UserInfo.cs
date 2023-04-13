@@ -6,12 +6,18 @@ using System.Threading.Tasks;
 
 namespace QuickLoanAPI.Domain
 {
-  public class LoanType
+  public class UserInfo
   {
     public int Id { get; set; }
-    public string Name { get; set; }
-    public decimal InterestRate { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string PersonalNumber { get; set; }
+    public DateTime DateOfBirth { get; set; }
+
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
+
+    public int UserId { get; set; }
+    public User User { get; set; }
   }
 }
