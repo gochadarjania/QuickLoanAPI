@@ -37,16 +37,16 @@ create table LoanRequests (
     foreign key (UserId) references Users(Id)
 );
 go
-	create table Logs (
+create table Logs (
     Id bigint primary key identity(1,1),
-	LogLevel nvarchar(50) NULL,
-	Trace nvarchar(max) NULL,
-	Message nvarchar(max) NULL,
-	RequestData nvarchar(max) NULL,
-	RequestHeader nvarchar(max) NULL,
-	Path nvarchar(max) NULL,
-	HttpStatusCode nvarchar(16) NULL,
-	Created datetime NULL
+    LogLevel nvarchar(50) NULL,
+    Trace nvarchar(max) NULL,
+    Message nvarchar(max) NULL,
+    RequestData nvarchar(max) NULL,
+    RequestHeader nvarchar(max) NULL,
+    Path nvarchar(max) NULL,
+    HttpStatusCode nvarchar(16) NULL,
+    Created datetime NULL
 )
 
 go
