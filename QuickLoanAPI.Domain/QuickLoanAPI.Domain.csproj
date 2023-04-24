@@ -6,9 +6,4 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Interfaces\Core\" />
-    <Folder Include="Interfaces\Infrastructure\" />
-  </ItemGroup>
-
 </Project>

@@ -4,8 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuickLoanAPI.Core
+namespace QuickLoanAPI.Application
 {
+  public enum UserType
+  {
+    Admin = 1,
+    Customer
+  }
   public enum CurrencyType
   {
     GEL = 1,
@@ -24,5 +29,11 @@ namespace QuickLoanAPI.Core
     InProcess,
     Approved,
     Rejected
+  }
+  public enum ValidatorType
+  {
+    UserLogin = 1,
+    UserRegistration,
+    LoanRequest
   }
 }

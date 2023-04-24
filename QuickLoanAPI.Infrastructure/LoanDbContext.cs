@@ -24,7 +24,7 @@ namespace QuickLoanAPI.Infrastructure
       modelBuilder.Entity<User>()
           .HasOne(u => u.UserInfo)
           .WithOne(ui => ui.User)
-          .HasForeignKey<UserInfo>(ui => ui.UserId);
+          .HasForeignKey<UserInfo>(ui => ui.Id);
     }
   }
 }

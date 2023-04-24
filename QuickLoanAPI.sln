@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickLoanAPI", "QuickLoanAPI\QuickLoanAPI.csproj", "{36A8ECFF-1964-4C0A-BEEB-96949608A8F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickLoanAPI", "QuickLoanAPI\QuickLoanAPI.csproj", "{36A8ECFF-1964-4C0A-BEEB-96949608A8F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickLoanAPI.Core", "QuickLoanAPI.Core\QuickLoanAPI.Core.csproj", "{DB2E9E0A-2CA2-4AF7-BF76-DA034D55079C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickLoanAPI.Application", "QuickLoanAPI.Core\QuickLoanAPI.Application.csproj", "{DB2E9E0A-2CA2-4AF7-BF76-DA034D55079C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickLoanAPI.Infrastructure", "QuickLoanAPI.Infrastructure\QuickLoanAPI.Infrastructure.csproj", "{C5E8283D-2B98-482A-BB23-FB3F655F1356}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickLoanAPI.Infrastructure", "QuickLoanAPI.Infrastructure\QuickLoanAPI.Infrastructure.csproj", "{C5E8283D-2B98-482A-BB23-FB3F655F1356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickLoanAPI.Domain", "QuickLoanAPI.Domain\QuickLoanAPI.Domain.csproj", "{ABCE9065-7581-4357-9C63-78E6DB4D7136}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickLoanAPI.Domain", "QuickLoanAPI.Domain\QuickLoanAPI.Domain.csproj", "{ABCE9065-7581-4357-9C63-78E6DB4D7136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
